@@ -62,7 +62,8 @@ export default function Home() {
             <p className="text-lg">
               Back in 2006, I spent my evenings creating custom MySpace layouts
               and learning the ins and outs of HTML and CSS. Fast forward to
-              today, where I've had the privilege of building software for a{" "}
+              today, where I&apos;ve had the privilege of building software for
+              a{" "}
               <a
                 className="font-black underline"
                 href="https://qodespace.com/"
@@ -93,8 +94,8 @@ export default function Home() {
               .
             </p>
             <p className="text-lg">
-              When I'm not in front of my computer, I enjoy long walks with my
-              dog and girlfriend, going to soccer games, and playing video
+              When I&apos;m not in front of my computer, I enjoy long walks with
+              my dog and girlfriend, going to soccer games, and playing video
               games.
             </p>
           </div>
@@ -116,7 +117,7 @@ export default function Home() {
               <div className="flex basis-1/2 flex-col gap-y-4">
                 <h3 className="text-3xl">Portfolio Site</h3>
                 <p className="text-lg">
-                  This very site you're on! Made with Next.js for image
+                  This very site you&apos;re on! Made with Next.js for image
                   optimizations and other performance benefits, and Tailwind CSS
                   for styling. Deployed using Vercel CLI.
                 </p>
