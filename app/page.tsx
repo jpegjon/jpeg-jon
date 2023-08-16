@@ -1,113 +1,396 @@
-import Image from 'next/image'
-
+import Image from "next/image";
+import { FiGithub, FiLinkedin, FiMail, FiInstagram } from "react-icons/fi";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <div className="my-10 flex flex-col gap-y-16 p-4 md:items-center md:p-0">
+        <div className="flex flex-col gap-y-10 md:w-2/5">
+          <div className="flex flex-col justify-between gap-y-4 md:flex-row">
+            <div className="flex gap-x-4">
+              <div className="flex flex-col gap-y-1">
+                <h1 className="text-xl md:text-3xl">
+                  Jonathan Tsikniadopoulos
+                </h1>
+                <p className="text-lg text-pumpkin">
+                  Web developer & project manager
+                </p>
+              </div>
+            </div>
+            <div className="flex h-fit flex-row items-center justify-between gap-y-3 md:flex-col">
+              <div className="flex gap-x-3">
+                <a
+                  target="_blank"
+                  className="h-fit"
+                  href="https://github.com/jpegjon"
+                >
+                  <FiGithub className="text-2xl" />
+                </a>
+                <a
+                  target="_blank"
+                  className="h-fit"
+                  href="https://www.linkedin.com/in/jpegjon/"
+                >
+                  <FiLinkedin className="text-2xl" />
+                </a>
+                <a
+                  target="_blank"
+                  className="h-fit"
+                  href="mailto:jon.tsiknias@gmail.com"
+                >
+                  <FiMail className="text-2xl" />
+                </a>
+                <a
+                  target="_blank"
+                  className="h-fit"
+                  href="https://www.instagram.com/jpeg_jon/"
+                >
+                  <FiInstagram className="text-2xl" />
+                </a>
+              </div>
+              <div className="flex">
+                <a
+                  className="flex items-center gap-x-2 rounded-md border-2 border-neutral-900 bg-neutral-900 px-3.5 py-2 font-medium text-neutral-100 transition-colors duration-500 hover:bg-transparent hover:text-neutral-900"
+                  href="/resume.pdf"
+                  target="_blank"
+                >
+                  <span>View résumé</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-6 md:gap-y-4">
+            <p className="text-lg">
+              Back in 2006, I spent my evenings creating custom MySpace layouts
+              and learning the ins and outs of HTML and CSS. Fast forward to
+              today, where I've had the privilege of building software for a{" "}
+              <a
+                className="font-black underline"
+                href="https://qodespace.com/"
+                target="_blank"
+              >
+                start-up
+              </a>
+              , a large{" "}
+              <a
+                className="font-black underline"
+                href="https://www.nogin.com/"
+                target="_blank"
+              >
+                enterprise company
+              </a>
+              , and everything in between.
+            </p>
+            <p className="text-lg">
+              These days, I lead a team of developers and build software
+              solutions for our e-commerce clients at{" "}
+              <a
+                className="font-black underline"
+                href="https://qodespace.com/"
+                target="_blank"
+              >
+                Qode Space
+              </a>
+              .
+            </p>
+            <p className="text-lg">
+              When I'm not in front of my computer, I enjoy long walks with my
+              dog and girlfriend, going to soccer games, and playing video
+              games.
+            </p>
+          </div>
+          <hr className="mx-auto w-7/12 border-4 border-neutral-900" />
+        </div>
+        <div className="flex flex-col gap-y-4 md:w-2/5">
+          <h1 className="text-4xl">Projects</h1>
+          <div className="flex flex-col gap-y-8">
+            <div className="flex flex-col gap-x-10 gap-y-4 md:flex-row">
+              <div className="basis-1/2">
+                <Image
+                  className="h-full rounded-2xl border-2 border-black object-cover"
+                  src="/website-homepage.jpg"
+                  width={600}
+                  height={500}
+                  alt="a homepage screenshot of jpegjon.com"
+                />
+              </div>
+              <div className="flex basis-1/2 flex-col gap-y-4">
+                <h3 className="text-3xl">Portfolio Site</h3>
+                <p className="text-lg">
+                  This very site you're on! Made with Next.js for image
+                  optimizations and other performance benefits, and Tailwind CSS
+                  for styling. Deployed using Vercel CLI.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Next.js
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    TypeScript
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Tailwind CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Vercel
+                  </span>
+                </div>
+                <div className="flex gap-x-4">
+                  <a
+                    href="https://github.com/jpegjon/jpeg-jon"
+                    target="_blank"
+                    className="flex items-center gap-x-2 rounded-md border-2 border-neutral-900 px-3.5 py-2 font-medium text-neutral-900 transition-colors duration-500 hover:bg-neutral-900 hover:text-neutral-100"
+                  >
+                    <span>View code</span>
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="h-5 w-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-x-10 gap-y-4 md:flex-row">
+              <div className="basis-1/2">
+                <Image
+                  className="h-full rounded-2xl border-2 border-black object-cover"
+                  src="/twitter-clone-homepage.jpg"
+                  width={600}
+                  height={500}
+                  alt="a homepage screenshot of the twitter clone web app"
+                />
+              </div>
+              <div className="flex basis-1/2 flex-col gap-y-4">
+                <h3 className="text-3xl">Twitter Clone</h3>
+                <p className="text-lg">
+                  A web app with NextAuth authentication, where a user can post
+                  new Tweets or comment on existing ones. Sanity is used in the
+                  back-end to fetch Tweets and also link Tweets to their
+                  comments.
+                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Next.js
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    TypeScript
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Sanity CMS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Tailwind CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Vercel
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Toast
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    GROQ
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    NextAuth
+                  </span>
+                </div>
+                <div className="flex gap-x-4">
+                  <a
+                    href="https://github.com/jpegjon/twitter-clone"
+                    target="_blank"
+                    className="flex items-center gap-x-2 rounded-md border-2 border-neutral-900 px-3.5 py-2 font-medium text-neutral-900 transition-colors duration-500 hover:bg-neutral-900 hover:text-neutral-100"
+                  >
+                    <span>View code</span>
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="h-5 w-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                  <a
+                    href="https://jpegjon-twitter-clone.vercel.app/"
+                    target="_blank"
+                    className="flex items-center gap-x-2 rounded-md border-2 border-neutral-900 bg-neutral-900 px-3.5 py-2 font-medium text-neutral-100 transition-colors duration-500 hover:bg-transparent hover:text-neutral-900"
+                  >
+                    <span>View demo</span>
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="h-5 w-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-4 md:w-2/5">
+          <h1 className="text-4xl">Skills</h1>
+          <div className="flex flex-wrap gap-x-4 gap-y-4">
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              JavaScript
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              React
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Next.js
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Tailwind CSS
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              TypeScript
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Shopify expert
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Site redesigns
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              JIRA
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Agile / scrum
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Vue.js
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Vercel
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              User testing
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Usability testing
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Liquid
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Notion
+            </span>
+            <span className="inline-flex items-center rounded-md bg-neutral-300 px-4 py-2 font-medium text-neutral-900">
+              Webflow
+            </span>
+            <span className="inline-flex items-center rounded-md bg-gray-100 px-4 py-2 text-neutral-900">
+              + more
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-4 md:w-2/5">
+          <h1 className="text-4xl">Experience</h1>
+          <div className="flex flex-col gap-y-4 divide-y-2">
+            <div className="flex flex-col items-start justify-between gap-y-3 md:flex-row">
+              <div className="flex flex-col gap-y-2">
+                <h3 className="text-xl">Lead developer</h3>
+                <p className="max-w-xl text-lg">
+                  Deliver high-quality production code for e-commerce brands in
+                  the apparel, beauty, and hotel industries. Provide leadership
+                  within the engineering department through mentorship and
+                  knowledge shares. Lead site redesign and migration projects
+                  onto the Shopify platform.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    JavaScript
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    Tailwind CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    Liquid
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    SCSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    HTML
+                  </span>
+                </div>
+              </div>
+              <div className="flex flex-col md:items-end">
+                <p className="text-lg font-black">Qode Space</p>
+                <p className="text-lg">Jul 2020 - Present</p>
+              </div>
+            </div>
+            <div className="flex flex-col items-start justify-between gap-y-3 last:pt-2 md:flex-row">
+              <div className="flex flex-col gap-y-2">
+                <h3 className="text-xl">Project Manager</h3>
+                <p className="max-w-xl text-lg">
+                  Lead a team of developers in delivering new features and
+                  functional software for e-commerce brands. Lead daily
+                  standups, weekly sprint planning and post-project
+                  retrospectives.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    JIRA
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    Agile / Scrum
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    User testing
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    JavaScript
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-sm font-medium text-neutral-900">
+                    HTML
+                  </span>
+                </div>
+              </div>
+              <div className="flex flex-col md:items-end">
+                <p className="text-lg font-black">Nogin</p>
+                <p className="text-lg">Nov 2011 - Jul 2020</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
     </main>
-  )
+  );
 }
