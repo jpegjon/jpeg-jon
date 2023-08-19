@@ -17,31 +17,31 @@ export default function Home() {
               </div>
             </div>
             <div className="flex h-fit flex-row items-center justify-between gap-y-3 md:flex-col">
-              <div className="flex gap-x-3">
+              <div className="flex gap-x-4">
                 <a
                   target="_blank"
-                  className="h-fit"
+                  className="h-fit opacity-70 transition-all duration-300 hover:mt-[-3px] hover:opacity-100"
                   href="https://github.com/jpegjon"
                 >
                   <FiGithub className="text-2xl" />
                 </a>
                 <a
                   target="_blank"
-                  className="h-fit"
+                  className="h-fit opacity-70 transition-all duration-300 hover:mt-[-3px] hover:opacity-100"
                   href="https://www.linkedin.com/in/jpegjon/"
                 >
                   <FiLinkedin className="text-2xl" />
                 </a>
                 <a
                   target="_blank"
-                  className="h-fit"
+                  className="h-fit opacity-70 transition-all duration-300 hover:mt-[-3px] hover:opacity-100"
                   href="mailto:jon.tsiknias@gmail.com"
                 >
                   <FiMail className="text-2xl" />
                 </a>
                 <a
                   target="_blank"
-                  className="h-fit"
+                  className="h-fit opacity-70 transition-all duration-300 hover:mt-[-3px] hover:opacity-100"
                   href="https://www.instagram.com/jpeg_jon/"
                 >
                   <FiInstagram className="text-2xl" />
