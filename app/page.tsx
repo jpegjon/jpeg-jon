@@ -104,6 +104,62 @@ export default function Home() {
         <div className="flex flex-col gap-y-4 md:w-2/5">
           <h1 className="text-4xl">Projects</h1>
           <div className="flex flex-col gap-y-8">
+          <div className="flex flex-col gap-x-10 gap-y-4 md:flex-row">
+              <div className="basis-1/2">
+                <Image
+                  className="h-full rounded-2xl border-2 border-black object-cover"
+                  src="/qodespace-homepage.png"
+                  width={600}
+                  height={500}
+                  alt="a homepage screenshot of qodespace.com"
+                />
+              </div>
+              <div className="flex basis-1/2 flex-col gap-y-4">
+                <h3 className="text-3xl">qodespace.com</h3>
+                <p className="text-lg">
+                  A complete redesign for ecommerce agency Qode Space. Built on Shopify's platform.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Shopify
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    Liquid
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                    JavaScript
+                  </span>
+                  <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
+                  Tailwind CSS
+                  </span>
+                </div>
+                <div className="flex gap-x-4">
+                <a
+                    href="https://www.qodespace.com"
+                    target="_blank"
+                    className="flex items-center gap-x-2 rounded-md border-2 border-neutral-900 bg-neutral-900 px-3.5 py-2 font-medium text-neutral-100 transition-colors duration-500 hover:bg-transparent hover:text-neutral-900"
+                  >
+                    <span>View site</span>
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="h-5 w-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col gap-x-10 gap-y-4 md:flex-row">
               <div className="basis-1/2">
                 <Image
