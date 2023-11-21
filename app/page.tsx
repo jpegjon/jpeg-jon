@@ -117,7 +117,7 @@ export default function Home() {
               <div className="flex basis-1/2 flex-col gap-y-4">
                 <h3 className="text-3xl">qodespace.com</h3>
                 <p className="text-lg">
-                  A complete redesign for ecommerce agency Qode Space. Built on Shopify's platform.
+                  A complete redesign for ecommerce agency Qode Space. Built on Shopify&apos;s platform.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="inline-flex items-center rounded-md border border-neutral-900 px-2 py-1 text-xs font-medium text-neutral-900">
