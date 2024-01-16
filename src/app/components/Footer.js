@@ -31,7 +31,7 @@ function Footer() {
         <div className="flex flex-col gap-y-12">
           <div className="flex flex-col gap-y-3">
             <p className="text-2xl md:text-3xl">
-              Don't be shy! Let's connect and make something special
+              Don&apos;t be shy! Let&apos;s connect and make something special
             </p>
             <a
               className="w-max text-2xl text-gray-500 md:text-3xl"
