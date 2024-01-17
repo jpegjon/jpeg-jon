@@ -10,6 +10,7 @@ function Work() {
           <div className="flex flex-col gap-y-3">
             <a target="_blank" href="https://www.timepiecevaultco.com">
               <Image
+                className="w-full"
                 alt="man wearing Rolex sitting on leather couch"
                 src="/man-wearing-rolex-sitting-on-leather-couch.jpg"
                 width="1200"
@@ -26,6 +27,7 @@ function Work() {
           <div className="flex flex-col gap-y-3">
             <a target="_blank" href="https://kindtail.com">
               <Image
+                className="w-full"
                 alt="dog resting in crate"
                 src="/dog-resting-in-crate.jpg"
                 width="1200"
@@ -42,6 +44,7 @@ function Work() {
           <div className="flex flex-col gap-y-3">
             <a target="_blank" href="https://housedogge.com">
               <Image
+                className="w-full"
                 alt="two women lounging with dog on the couch"
                 src="/women-lounging-with-dog-on-couch.jpg"
                 width="1200"
@@ -58,6 +61,7 @@ function Work() {
           <div className="flex flex-col gap-y-3">
             <a target="_blank" href="https://kimikobeauty.com">
               <Image
+                className="w-full"
                 alt="super fine eyebrow pencil"
                 src="/super-fine-eyebrow-pencil.jpg"
                 width="1200"
