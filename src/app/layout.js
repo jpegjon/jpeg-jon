@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import SmoothScrolling from "./components/SmoothScrolling";
 import "./globals.css";
 
 // components
@@ -46,7 +47,7 @@ export default function RootLayout({ children }) {
     <html className={unica77.className} lang="en">
       <body>
         <Header />
-        {children}
+        <SmoothScrolling>{children}</SmoothScrolling>
         <Footer />
       </body>
     </html>
