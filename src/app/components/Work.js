@@ -11,21 +11,42 @@ function Work() {
             <a
               className="lg:overflow-hidden"
               target="_blank"
-              href="https://www.timepiecevaultco.com"
+              href="https://www.chocolatedispensary.com"
             >
               <Image
-                className="w-full lg:transition-transform lg:duration-300 lg:hover:scale-110"
-                alt="man wearing Rolex sitting on leather couch"
-                src="/man-wearing-rolex-sitting-on-leather-couch.jpg"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                alt="stack of raspberry chocolate bars"
+                src="/stack-of-raspberry-chocolate.jpg"
                 width="1200"
                 height="800"
               />
             </a>
             <div className="flex flex-row justify-between">
-              <a target="_blank" href="https://www.timepiecevaultco.com">
-                <h3>Timepiece Vault</h3>
+              <a target="_blank" href="https://www.chocolatedispensary.com">
+                <h3>The Chocolate Dispensary</h3>
               </a>
-              <span className="text-gray-400">2023</span>
+              <span className="text-gray-400">2024</span>
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-3">
+            <a
+              className="lg:overflow-hidden"
+              target="_blank"
+              href="https://kimikobeauty.com"
+            >
+              <Image
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                alt="super fine eyebrow pencil"
+                src="/super-fine-eyebrow-pencil.jpg"
+                width="1200"
+                height="800"
+              />
+            </a>
+            <div className="flex flex-row justify-between">
+              <a target="_blank" href="https://kimikobeauty.com">
+                <h3>Kimiko Beauty</h3>
+              </a>
+              <span className="text-gray-400">2024</span>
             </div>
           </div>
           <div className="flex flex-col gap-y-3">
@@ -35,7 +56,7 @@ function Work() {
               href="https://kindtail.com"
             >
               <Image
-                className="w-full lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
                 alt="dog resting in crate"
                 src="/dog-resting-in-crate.jpg"
                 width="1200"
@@ -56,7 +77,7 @@ function Work() {
               href="https://housedogge.com"
             >
               <Image
-                className="w-full lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
                 alt="two women lounging with dog on the couch"
                 src="/women-lounging-with-dog-on-couch.jpg"
                 width="1200"
@@ -68,27 +89,6 @@ function Work() {
                 <h3>House Dogge</h3>
               </a>
               <span className="text-gray-400">2021</span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-y-3">
-            <a
-              className="lg:overflow-hidden"
-              target="_blank"
-              href="https://kimikobeauty.com"
-            >
-              <Image
-                className="w-full lg:transition-transform lg:duration-300 lg:hover:scale-110"
-                alt="super fine eyebrow pencil"
-                src="/super-fine-eyebrow-pencil.jpg"
-                width="1200"
-                height="800"
-              />
-            </a>
-            <div className="flex flex-row justify-between">
-              <a target="_blank" href="https://kimikobeauty.com">
-                <h3>Kimiko Beauty</h3>
-              </a>
-              <span className="text-gray-400">2020</span>
             </div>
           </div>
         </div>
