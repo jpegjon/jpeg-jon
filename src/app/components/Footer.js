@@ -21,11 +21,6 @@ function Footer() {
                 LinkedIn
               </a>
             </li>
-            <li>
-              <a href="https://www.instagram.com/jpeg_jon" target="_blank">
-                Instagram
-              </a>
-            </li>
           </ul>
         </div>
         <div className="flex flex-col gap-y-12">
