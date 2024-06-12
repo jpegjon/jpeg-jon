@@ -25,6 +25,7 @@ function Header() {
             src="/jonathan-tsikniadopoulos-profile.jpg"
             width="476"
             height="476"
+            priority={true}
           />
           <h2 className="text-6xl font-semibold md:text-8xl">Developer</h2>
         </div>
