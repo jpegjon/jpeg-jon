@@ -20,9 +20,9 @@ function Header() {
         </div>
         <div className="flex flex-col gap-y-4 md:grid md:grid-cols-2 md:items-end">
           <Image
-            alt="minimalist cartoon drawing of a robot"
-            className="w-60"
-            src="/robot.svg"
+            alt="a profile picture of me, Jonathan Tsikniadopoulos"
+            className="h-60 w-60 rounded-full object-cover grayscale"
+            src="/jonathan-tsikniadopoulos-profile.jpg"
             width="476"
             height="476"
           />
