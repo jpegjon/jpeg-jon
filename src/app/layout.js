@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Jon Tsiknias — Developer",
+  title: "Jon Tsikniadopoulos — Developer",
   description: "Developer and project manager from Los Angeles.",
 };
 

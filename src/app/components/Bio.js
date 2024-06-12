@@ -21,7 +21,7 @@ function Bio() {
         </div>
         <div className="flex flex-col gap-y-10">
           <h2>About</h2>
-          <p className="text-2xl font-light md:text-3xl">
+          <p className="text-xl font-light leading-normal md:text-2xl">
             Hello there! My name is Jonathan. As an experienced developer, I
             bring a passion for creativity, problem-solving and a strategic
             mindset to every project I work on. With a background in computer

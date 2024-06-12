@@ -11,19 +11,19 @@ function Work() {
             <a
               className="lg:overflow-hidden"
               target="_blank"
-              href="https://www.chocolatedispensary.com"
+              href="https://forloveandlemons.com"
             >
               <Image
                 className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
-                alt="stack of raspberry chocolate bars"
-                src="/stack-of-raspberry-chocolate.jpg"
+                alt="a model wearing white floral lingerie and lifting dumbbells"
+                src="/model-wearing-floral-lingerie-lifting-dumbbells.jpg"
                 width="1200"
                 height="800"
               />
             </a>
             <div className="flex flex-row justify-between">
-              <a target="_blank" href="https://www.chocolatedispensary.com">
-                <h3>The Chocolate Dispensary</h3>
+              <a target="_blank" href="https://forloveandlemons.com">
+                <h3>For Love & Lemons</h3>
               </a>
               <span className="text-gray-400">2024</span>
             </div>
@@ -53,6 +53,27 @@ function Work() {
             <a
               className="lg:overflow-hidden"
               target="_blank"
+              href="https://www.chocolatedispensary.com"
+            >
+              <Image
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                alt="stack of raspberry chocolate bars"
+                src="/stack-of-raspberry-chocolate.jpg"
+                width="1200"
+                height="800"
+              />
+            </a>
+            <div className="flex flex-row justify-between">
+              <a target="_blank" href="https://www.chocolatedispensary.com">
+                <h3>The Chocolate Dispensary</h3>
+              </a>
+              <span className="text-gray-400">2024</span>
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-3">
+            <a
+              className="lg:overflow-hidden"
+              target="_blank"
               href="https://kindtail.com"
             >
               <Image
@@ -67,28 +88,7 @@ function Work() {
               <a target="_blank" href="https://kindtail.com">
                 <h3>Kindtail</h3>
               </a>
-              <span className="text-gray-400">2022</span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-y-3">
-            <a
-              className="lg:overflow-hidden"
-              target="_blank"
-              href="https://housedogge.com"
-            >
-              <Image
-                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
-                alt="two women lounging with dog on the couch"
-                src="/women-lounging-with-dog-on-couch.jpg"
-                width="1200"
-                height="800"
-              />
-            </a>
-            <div className="flex flex-row justify-between">
-              <a target="_blank" href="https://housedogge.com">
-                <h3>House Dogge</h3>
-              </a>
-              <span className="text-gray-400">2021</span>
+              <span className="text-gray-400">2023</span>
             </div>
           </div>
         </div>

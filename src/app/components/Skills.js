@@ -10,12 +10,13 @@ function Skills() {
             <li>JavaScript</li>
             <li>React</li>
             <li>Next.js</li>
+            <li>Vue</li>
             <li>Tailwind CSS</li>
             <li>TypeScript</li>
-            <li>Shopify</li>
+            <li>Shopify Plus</li>
             <li>Liquid</li>
-            <li>Vue</li>
-            <li>JIRA</li>
+            <li>Hydrogen / headless</li>
+            <li>Framer</li>
             <li>Webflow</li>
           </ul>
         </div>
