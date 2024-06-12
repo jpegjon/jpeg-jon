@@ -14,7 +14,7 @@ function Work() {
               href="https://forloveandlemons.com"
             >
               <Image
-                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-1000 lg:hover:scale-110"
                 alt="a model wearing white floral lingerie and lifting dumbbells"
                 src="/model-wearing-floral-lingerie-lifting-dumbbells.jpg"
                 width="1200"
@@ -35,7 +35,7 @@ function Work() {
               href="https://kimikobeauty.com"
             >
               <Image
-                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-1000 lg:hover:scale-110"
                 alt="super fine eyebrow pencil"
                 src="/super-fine-eyebrow-pencil.jpg"
                 width="1200"
@@ -56,7 +56,7 @@ function Work() {
               href="https://www.chocolatedispensary.com"
             >
               <Image
-                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-1000 lg:hover:scale-110"
                 alt="stack of raspberry chocolate bars"
                 src="/stack-of-raspberry-chocolate.jpg"
                 width="1200"
@@ -77,7 +77,7 @@ function Work() {
               href="https://kindtail.com"
             >
               <Image
-                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-300 lg:hover:scale-110"
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-1000 lg:hover:scale-110"
                 alt="dog resting in crate"
                 src="/dog-resting-in-crate.jpg"
                 width="1200"
