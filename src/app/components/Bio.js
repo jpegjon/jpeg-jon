@@ -22,14 +22,14 @@ function Bio() {
         <div className="flex flex-col gap-y-10">
           <h2>About</h2>
           <p className="text-xl font-light leading-normal md:text-2xl">
-            Hello there! My name is Jonathan. As an experienced developer, I
-            bring a passion for creativity, problem-solving and a strategic
-            mindset to every project I work on. With a background in computer
-            science and over a decade of project management experience, I have
-            honed my skills in conceptualizing and executing visually compelling
-            ideas. I have had the opportunity to collaborate with talented teams
-            and clients across various industries, ranging from fashion to
-            beauty and entertainment.
+            Hello there! My name is Jon. As an experienced developer, I bring a
+            passion for creativity, problem-solving and a strategic mindset to
+            every project I work on. With a background in computer science and
+            over a decade of project management experience, I have honed my
+            skills in conceptualizing and executing visually compelling ideas. I
+            have had the opportunity to collaborate with talented teams and
+            clients across various industries, ranging from fashion to beauty
+            and entertainment.
           </p>
           <a
             className="flex w-max flex-row items-center gap-x-2 rounded-full border border-gray-300 px-4 py-2 transition duration-300 hover:border-gray-400"

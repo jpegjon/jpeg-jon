@@ -6,7 +6,7 @@ function Header() {
     <div className="px-4 pt-4 md:px-6">
       <div className="flex flex-col gap-y-20 md:gap-y-36">
         <div className="flex justify-between md:grid md:grid-cols-2">
-          <h1>Jonathan Tsikniadopoulos</h1>
+          <h1>Jon Tsikniadopoulos</h1>
           <div className="flex justify-between">
             <p>Based in Los Angeles</p>
             <span className="hidden flex-row items-center gap-x-2 rounded-full border border-gray-300 px-3 py-1 md:flex">
