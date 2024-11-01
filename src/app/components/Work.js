@@ -32,6 +32,27 @@ function Work() {
             <a
               className="lg:overflow-hidden"
               target="_blank"
+              href="https://www.lostin.com"
+            >
+              <Image
+                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-1000 lg:hover:scale-110"
+                alt="LOST iN Europe book cover"
+                src="/lost-in-europe-book-cover.jpg"
+                width="1200"
+                height="800"
+              />
+            </a>
+            <div className="flex flex-row justify-between">
+              <a target="_blank" href="https://www.lostin.com">
+                <h3>LOST iN</h3>
+              </a>
+              <span className="text-gray-400">2024</span>
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-3">
+            <a
+              className="lg:overflow-hidden"
+              target="_blank"
               href="https://kimikobeauty.com"
             >
               <Image
@@ -45,27 +66,6 @@ function Work() {
             <div className="flex flex-row justify-between">
               <a target="_blank" href="https://kimikobeauty.com">
                 <h3>Kimiko Beauty</h3>
-              </a>
-              <span className="text-gray-400">2024</span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-y-3">
-            <a
-              className="lg:overflow-hidden"
-              target="_blank"
-              href="https://www.chocolatedispensary.com"
-            >
-              <Image
-                className="h-[300px] max-h-[300px] w-full object-cover lg:h-[700px] lg:max-h-[700px] lg:transition-transform lg:duration-1000 lg:hover:scale-110"
-                alt="stack of raspberry chocolate bars"
-                src="/stack-of-raspberry-chocolate.jpg"
-                width="1200"
-                height="800"
-              />
-            </a>
-            <div className="flex flex-row justify-between">
-              <a target="_blank" href="https://www.chocolatedispensary.com">
-                <h3>The Chocolate Dispensary</h3>
               </a>
               <span className="text-gray-400">2024</span>
             </div>
