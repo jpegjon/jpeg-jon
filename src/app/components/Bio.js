@@ -7,12 +7,6 @@ function Bio() {
         <div className="flex flex-col gap-y-10">
           <h2>Experience</h2>
           <div className="flex flex-col gap-y-1">
-            <p className="font-light">
-              Senior Shopify Developer - Avex Designs
-            </p>
-            <p className="font-light text-gray-500">2025 - Present</p>
-          </div>
-          <div className="flex flex-col gap-y-1">
             <p className="font-light">Lead Developer - Qode Space</p>
             <p className="font-light text-gray-500">2020 - 2025</p>
           </div>
